@@ -9,7 +9,7 @@ class ObsequiousImp
     puts "#{salutation}, #{title} #{full_name}. ",
          "Welcome to #{progname} version #{version}. ",
          "My name is #{designation}. ",
-         "May I #{service_inquiry}"
+         "May I #{service_inquiry}?"
   end
 end
 ObsequiousImp.new.greet("Commander", "Sam Vimes")
